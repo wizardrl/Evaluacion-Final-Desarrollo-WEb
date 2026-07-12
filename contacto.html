@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contacto y admisión a la Licenciatura en Innovación Social."
+    />
+    <title>Contacto | Impulso Social</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top"
+        aria-label="Navegación principal"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><span aria-hidden="true">✦</span> IMPULSO <small>SOCIAL</small></a
+          ><button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Abrir menú"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="programa.html">El programa</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item ms-lg-3">
+                <a class="btn btn-accent" href="#inscripcion">Postular ahora</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="contenido">
+      <section class="page-heading">
+        <div class="container">
+          <p class="eyebrow">ADMISIONES 2026</p>
+          <h1>Estamos para <em>escucharte.</em></h1>
+          <p class="lead">
+            Déjanos tus datos y te enviamos toda la información que necesitás.
+          </p>
+        </div>
+      </section>
+      <section id="inscripcion" class="section-pad">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5">
+              <h2>Hablemos de tu próximo paso.</h2>
+              <p>
+                El equipo de admisiones responde de lunes a viernes, de 9 a.m. a 6 p.m.
+              </p>
+              <div class="contact-detail">
+                <span aria-hidden="true">✉</span
+                ><a href="mailto:david_rolo2130@hotmail.com"
+                  >david_rolo2130@hotmail.com</a
+                >
+              </div>
+              <div class="contact-detail">
+                <span aria-hidden="true">☎</span
+                ><a href="tel:+51910794383">+51 910 794 383</a>
+              </div>
+              <p class="mt-4 small text-muted">
+                Tus datos se usarán únicamente para responder esta consulta. No
+                compartimos información personal con terceros.
+              </p>
+            </div>
+            <div class="col-lg-7">
+              <form
+                id="interest-form"
+                class="needs-validation form-card"
+                novalidate
+                aria-describedby="form-status"
+              >
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="nombre" class="form-label"
+                      >Nombre y apellido
+                      <span aria-hidden="true">*</span></label
+                    ><input
+                      type="text"
+                      class="form-control"
+                      id="nombre"
+                      name="nombre"
+                      autocomplete="name"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Ingresá tu nombre y apellido.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label"
+                      >Correo electrónico
+                      <span aria-hidden="true">*</span></label
+                    ><input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      autocomplete="email"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Ingresá un correo válido.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="telefono" class="form-label">Teléfono</label
+                    ><input
+                      type="tel"
+                      class="form-control"
+                      id="telefono"
+                      name="telefono"
+                      autocomplete="tel"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="turno" class="form-label"
+                      >¿Cuándo querés empezar?</label
+                    ><select id="turno" class="form-select" name="turno">
+                      <option value="">Seleccioná una opción</option>
+                      <option>2026</option>
+                      <option>2027</option>
+                      <option>Aún no lo sé</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="mensaje" class="form-label"
+                      >¿Qué te gustaría saber?</label
+                    ><textarea
+                      id="mensaje"
+                      class="form-control"
+                      name="mensaje"
+                      rows="4"
+                      placeholder="Contanos brevemente tu consulta"
+                    ></textarea>
+                  </div>
+                  <div class="col-12 form-check ms-2">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="terms"
+                      required
+                    /><label class="form-check-label" for="terms"
+                      >Acepto el uso de mis datos para recibir información del
+                      programa. <span aria-hidden="true">*</span></label
+                    >
+                    <div class="invalid-feedback">
+                      Necesitamos tu consentimiento para continuar.
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-accent btn-lg" type="submit">
+                      Enviar consulta <span aria-hidden="true">→</span>
+                    </button>
+                  </div>
+                </div>
+                <p
+                  id="form-status"
+                  class="mt-3 mb-0"
+                  role="status"
+                  aria-live="polite"
+                ></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between gap-3"
+      >
+        <p class="mb-0">
+          <strong>Facultad de Ciencias Sociales</strong><br />Universidad
+          Metropolitana
+        </p>
+        <p class="mb-0">
+          © <span id="year"></span> · Una educación para el bien común <br />Created by: David Romero  Lopez
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
